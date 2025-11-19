@@ -4,7 +4,7 @@ Este es un Proyecto de practica:
 
 - Descripción: Una plataforma web para leer novelas en línea.
 
-- Tecnologías Utilizadas: HTML, CSS, JavaScript, Node.js, Express, Netlify, Vercel, GitHub Pages.
+- Tecnologías Utilizadas: HTML, CSS, JavaScript, Node.js, Express, Vercel, Railway, GitHub Pages.
 
 
 
