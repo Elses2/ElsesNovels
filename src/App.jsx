@@ -1,15 +1,14 @@
-import Home from './pages/Home';
-import Login from './pages/Login';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+// src/App.jsx
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
+import Navbar from "./components/navbar/Navbar";
+
 export default function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/login' element={<Login/>}/>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
+
