@@ -11,10 +11,10 @@ export default function MenuMobile({ open }) {
         <Link to="/novelas" className="cursor-pointer hover:text-gray-400">Novelas</Link>
       </li>
       <li>
-        <Link to="/categorias" className="cursor-pointer hover:text-gray-400">Categorías</Link>
+        <Link to="/select-role" className="cursor-pointer hover:text-gray-400">Register</Link>
       </li>
       <li>
-        <Link to="/login" className="cursor-pointer hover:text-gray-400">Login</Link>
+        <Link to="/Login" className="cursor-pointer hover:text-gray-400">Login</Link>
       </li>
     </ul>
 

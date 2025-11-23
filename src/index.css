@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@layer base {
+  body {
+ @apply bg-slate-800 text-gray-200; /* Fondo para TODA la app */
+  }
+}
+
+
